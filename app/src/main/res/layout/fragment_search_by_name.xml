@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.hellosir.fragment.SearchByNameFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvSname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search by Name"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:id="@+id/llsname"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/Esearch_by_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSname"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Enter name of studnet" />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tvSname"
+            android:layout_toRightOf="@id/Esearch_by_name"
+            android:background="@android:color/background_dark"
+            android:src="@drawable/ic_menu_search"
+            android:tint="@color/colorPrimary" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/llsname"
+        android:id="@+id/rvsearch_by_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_batch2013"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="2013 Batch" />
+        <item
+            android:id="@+id/nav_batch2014"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="2014 Batch" />
+        <item
+            android:id="@+id/nav_batch2015"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="2015 Batch" />
+        <item
+            android:id="@+id/nav_batch2016"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="2016 Batch" />
+
+        <item android:id="@+id/nav_batch2017"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="2017 Batch"/>
+    </group>
+
+    <item android:title="Search">
+        <menu>
+            <item
+                android:id="@+id/nav_searchByName"
+                android:icon="@drawable/ic_menu_search"
+                android:title="Search by Name " />
+            <item
+                android:id="@+id/nav_searchByRegNo"
+                android:icon="@drawable/ic_menu_target_search"
+                android:title="Search by Reg. no." />
+        </menu>
+    </item>
+
+</menu>
