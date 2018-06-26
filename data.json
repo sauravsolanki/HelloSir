@@ -1,1 +1,15 @@
-{"1":"BT Magzine","2":"Times of India","3":"APJ Books","4":"Martin Vision","5":"Peter's Pie","6":"Tsumi's food","7":"Cchao Snacks","8":"Biscuits","9":"Gulab Jamun"}
+{"names":[
+{"id":"1",
+"name":"BT Magzine"},
+{"id":"2",
+"name":"Trending TOI Articles"},
+{"id":"3",
+"name":"APJ Books"},
+{"id":"4",
+"name":"Martin Books"},
+{"id":"5",
+"name":"Peter's Pie"},
+{"id":"6",
+"name":"Cchao Snacks"}
+]
+}
